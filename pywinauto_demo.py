@@ -2,6 +2,8 @@
 from pywinauto import backend
 from pywinauto.application import Application
 
+# PYWINAUTO DEMO FOR NOTEPAD
+
 app = Application(backend="uia").start("notepad.exe")
 app = Application(backend="uia").connect(title="Untitled - Notepad", timeout=1000)
 
